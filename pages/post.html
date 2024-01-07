@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="post.css">
+		<script src="createPost.js" defer></script>
+		<title>POST</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<div>
+				<a class="logo" href="index.html">UNDO</a>
+			</div>
+			<div class="navButtons">
+				<a class="navButton1" href="index.html">DISCOVER</a>
+				<a class="navButton2 active" href="post.html">POST</a>
+				<a class="navButton3" href="collection.html">COLLECTION</a>
+
+				<img class="profilePicture" src="Images/ProfilePic/placeholder PF.jpg" alt="profile picture" />
+			</div>
+		</div>
+		<div class="topBody">
+			<div>
+				<p class="title">POST</p>
+			</div>
+		</div>
+		<div class="middelBody">
+			<div class="iconPost">
+				<a href="index.html" src=""><img src="Images/Icons/arrow_back_ios_new_FILL0_wght400_GRAD0_opsz24.svg" alt=""/></a>
+				
+				
+			</div>
+			<div class="centerPost">
+				<div class="quotePPost">
+					<p class="quotePost">SHARE YOUR LOOK</p>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Import Image</button>
+					<div class="dropdown-content">
+						<a href="../pages/Images/IMGList/userImage1.jpg">Image 1</a>
+						<a href="../pages/Images/IMGList/userImage2.jpg">Image 2</a>
+	
+					</div>
+				</div>
+				<div id="selectedImage">
+				</div>
+
+				<div class="infoPost">
+					<form action="">
+						<label for="NAME">NAME:</label>
+						<input type="text" id="NAME" placeholder="CARHARTT"</label>
+						<label for="HAT">HAT:</label>
+						<input type="text" id="HAT" placeholder="CARHARTT"/>
+						<label for="PULLOVER">PULLOVER:</label>
+						<input type="text" id="PULLOVER" placeholder="CARHARTT"/>
+						<label for="SHIRT">SHIRT:</label>
+						<input type="text" id="SHIRT" placeholder="CARHARTT"/>
+						<label for="JACKET">JACKET:</label>
+						<input type="text" id="JACKET" placeholder="CARHARTT"/>
+						<label for="PANTS">PANTS:</label>
+						<input type="text" id="PANTS" placeholder="CARHARTT"/>
+						<label for="DESCRIPTION">DESCRIPTION:</label>
+						<input type="text" id="DESCRIPTION" placeholder="CARHARTT"/>
+						<button type="buttonPost" id="buttonPost">POST</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

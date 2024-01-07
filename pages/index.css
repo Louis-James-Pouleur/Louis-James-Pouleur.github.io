@@ -1,0 +1,333 @@
+@import url("https://use.typekit.net/lyz8pqz.css");
+
+body {
+	background-color: #141414;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+label {
+	color: white;
+	font-family: "apertura", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -10px;
+}
+
+.logo {
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	font-style: normal;
+	margin-left: 100px;
+	text-decoration: none;
+}
+
+.navButton1 {
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.navButton1:hover,
+.navButton1.active {
+	text-decoration-line: underline;
+	text-underline-offset: 5px;
+}
+
+.navButton2 {
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.navButton2:hover,
+.navButton2.active {
+	text-decoration-line: underline;
+	text-underline-offset: 5px;
+}
+
+.navButton2:hover {
+	text-decoration-line: underline;
+	text-underline-offset: 5px;
+}
+
+.navButton3 {
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.navButton3:hover,
+.navButton3.active {
+	text-decoration-line: underline;
+	text-underline-offset: 5px;
+}
+
+.navButtons {
+	display: flex;
+	align-items: center;
+}
+
+.profilePicture {
+	width: 35px;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 100px;
+	border-radius: 100%;
+}
+
+/* top body */
+
+.topBody {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	font-style: normal;
+	margin-left: 100px;
+	margin-top: -15px;
+}
+
+.iconPost {
+	width: 25px;
+	height: 25px;
+	margin-left: 100px;
+}
+
+.iconPost img {
+	margin-top: -200px;
+}
+
+.removeStyles {
+	font-family: "apertura", sans-serif;
+	margin-left: 15px;
+	margin-right: 100px;
+	margin-bottom: 35px;
+}
+
+.removeStyles a {
+	text-decoration: none;
+	color: white;
+	font-family: "apertura", sans-serif;
+	font-size: 14px;
+}
+
+.styleImageDiscovery {
+	width: 250px;
+	margin: 5px;
+}
+
+/* Selected page*/
+
+/* middel of the page*/
+.middleBody {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.center {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -75px;
+}
+
+.backButton {
+	width: 25px;
+	height: 25px;
+	margin-left: 100px;
+}
+
+.iconSelected {
+	width: 25px;
+	height: 25px;
+	margin-top: -420px;
+}
+
+.img {
+	margin: 10px;
+	width: 400px;
+	margin-top: -40px;
+}
+
+.backButton {
+	width: 25px;
+	height: 25px;
+	margin-left: 200px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: last baseline;
+	width: 400px;
+	margin-left: -25px;
+}
+
+.infoButton {
+	color: white;
+	text-decoration: none;
+	font-family: "apertura", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color: white;
+	border: none;
+	color: #141414;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-top: 100px;
+}
+
+p.quote {
+	transform: rotate(-90deg);
+	margin: 0px;
+	color: #141414;
+	font-family: "apertura", sans-serif;
+	font-weight: 700;
+	font-size: 52px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+.quote {
+	width: 500px;
+}
+
+.quoteP {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: last baseline;
+	width: 220px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.styleImageSelected {
+	scale: 85%;
+	margin: 5px;
+}
+
+/* POST PAGE*/
+
+.rectangle {
+	height: 472.5px;
+	width: 315px;
+	margin: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	stroke-width: 2px;
+	border: 2px solid white;
+}
+
+.centerPost {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -95px;
+	margin-left: -320px;
+}
+
+p.quotePost {
+	transform: rotate(-90deg);
+	margin: 0px;
+	color: #141414;
+	font-family: "apertura", sans-serif;
+	font-weight: 700;
+	font-size: 52px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+.quotePost {
+	width: 500px;
+}
+
+.quotePPost {
+	width: 220px;
+	height: 100px;
+}
+
+/* middel of the page*/
+
+.infoPost {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: last baseline;
+	max-width: 150px;
+}
+
+.infoButtonPost {
+	color: white;
+	text-decoration: none;
+	font-family: "apertura", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	justify-content: space-between;
+}
+
+buttonPost {
+	color: #0f0f0f;
+	border: none;
+	background-color: white;
+	padding: 1px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "apertura", sans-serif;
+	font-weight: 700;
+	margin-top: 180px;
+}
+
+.image-page {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px;
+}
